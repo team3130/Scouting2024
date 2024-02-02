@@ -80,9 +80,10 @@ var config_data = `
     { "name": "Auto Notes Used",
           "code": "nu",
           "type": "clickable_image",
+          "dimensions": "3 5",
           "filename": "2024/field_image.png",
-          "clickRestriction": "one",
-          "allowableResponses": "1 12 13 24 25 36 37 48 49 60 61 72",
+          "clickRestriction": "ten",
+          "allowableResponses": "1 2 3 4 5 6 7 8 9 11 14",
           "shape": "circle 5 black red true"
         }
   ],
