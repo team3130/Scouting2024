@@ -162,7 +162,7 @@ var config_data = `
       },
       "defaultValue":"3"
     },
-    { "name": "Died/Immobilized",
+    { "name": "Bricked",
       "code": "die",
       "type": "bool"
     },
