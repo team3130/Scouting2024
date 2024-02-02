@@ -1,7 +1,7 @@
 var config_data = `
 {
   "dataFormat": "tsv",
-  "title": "Scouting",
+  "title": "Match Scouting",
   "page_title": "ERROR 3130 MATCH SCOUTING",
   "checkboxAs": "10",
   "prematch": [
@@ -109,7 +109,7 @@ var config_data = `
       "type": "radio",
       "choices": {
         "s": "Human Player<br>",
-        "f": "Floor<br> (even if the note is dropped from the HP station)",
+        "f": "Floor/Dropped from the HP station<br>",
         "b": "Both<br>",
         "x": "Not Attempted"
       },

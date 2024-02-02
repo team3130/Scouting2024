@@ -1,15 +1,15 @@
 var config_data = `
 {
   "dataFormat": "tsv",
-  "title": "Scouting PASS 2024",
-  "page_title": "Crescendo",
+  "title": "Pit Scouting",
+  "page_title": "ERROR 3130 PIT SCOUTING",
   "pitConfig": "true",
   "prematch": [
     { "name": "Team Number",
       "code": "t",
       "type": "number"
     },
-    { "name": "Width",
+    { "name": "Width (No Bumpers)",
       "code": "wid",
       "type": "number",
       "defaultValue": "0"
@@ -24,8 +24,8 @@ var config_data = `
       "type": "radio",
       "choices": {
         "s": "Swerve<br>",
-        "w": "West Coast/Tank<br>",
-        "b": "Butterfly/Grashopper<br>",
+        "w": "Tank<br>",
+        "b": "Butterfly/Omni<br>",
         "m": "Mechanum<br>",
         "o": "Other"
       },
@@ -61,22 +61,20 @@ var config_data = `
       },
       "defaultValue":"x"
     },
-    { "name": "# of Batteries",
-      "code": "nob",
-      "type": "number"
+    { "name": "Strengths",
+          "code": "st",
+          "type": "text",
+          "size": 20,
+          "maxSize": 100
     },
-    { "name": "Floor pickup Notes",
-      "code": "fpu",
-      "type": "bool"
-    },
+    { "name": "Weaknesses",
+          "code": "wk",
+          "type": "text",
+          "size": 20,
+          "maxSize": 100
+        },
     { "name": "Autos",
       "code": "aut",
-      "type": "text",
-      "size": 20,
-      "maxSize": 250
-    },
-    { "name": "Scouting Method /<br>Program (ScoutingPASS?)",
-      "code": "sct",
       "type": "text",
       "size": 20,
       "maxSize": 250
