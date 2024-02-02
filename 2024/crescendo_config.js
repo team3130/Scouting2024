@@ -89,27 +89,35 @@ var config_data = `
   ],
   "teleop": [
     { "name": "Amp Scores",
-      "code": "tas",
-      "type": "counter"
+          "code": "ast",
+          "type": "counter"
+    },
+    { "name": "Amps Missed",
+              "code": "sst",
+              "type": "counter"
     },
     { "name": "Speaker Scores",
-      "code": "tss",
-      "type": "counter"
+          "code": "sst",
+          "type": "counter"
     },
-    { "name": "Times Amplified",
-      "code": "tta",
-      "type": "counter"
+    { "name": "Shots Missed",
+           "code": "sst",
+           "type": "counter"
     },
     { "name": "Pickup From",
       "code": "tpu",
       "type": "radio",
       "choices": {
-        "s": "Source<br>",
-        "f": "Floor<br>",
+        "s": "Human Player<br>",
+        "f": "Floor<br> (even if the note is dropped from the HP station)",
         "b": "Both<br>",
         "x": "Not Attempted"
       },
       "defaultValue": "x"
+    },
+    { "name": "Pieces Dropped",
+           "code": "sst",
+           "type": "counter"
     }
   ],
   "endgame": [
