@@ -1,8 +1,8 @@
 var config_data = `
 {
   "dataFormat": "tsv",
-  "title": "Scouting PASS 2024",
-  "page_title": "Crescendo",
+  "title": "Scouting",
+  "page_title": "ERROR 3130 MATCH SCOUTING",
   "checkboxAs": "10",
   "prematch": [
     { "name": "Scouter Initials",
@@ -78,7 +78,7 @@ var config_data = `
       "type": "counter"
     },
     { "name": "Auto Notes Used",
-          "code": "as",
+          "code": "nu",
           "type": "clickable_image",
           "filename": "2024/field_image.png",
           "clickRestriction": "one",
