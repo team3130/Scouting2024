@@ -12,7 +12,7 @@ var config_data = `
       "maxSize": 5,
       "required": "true"
     },
-    { "name": "Event",
+    { "name": "Comp",
       "code": "e",
       "type": "event",
       "defaultValue": "2023tnkn",
