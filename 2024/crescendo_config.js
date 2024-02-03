@@ -93,15 +93,15 @@ var config_data = `
           "type": "counter"
     },
     { "name": "Amps Missed",
-              "code": "sst",
+              "code": "am",
               "type": "counter"
     },
     { "name": "Speaker Scores",
-          "code": "sst",
+          "code": "ssc",
           "type": "counter"
     },
     { "name": "Shots Missed",
-           "code": "sst",
+           "code": "smc",
            "type": "counter"
     },
     { "name": "Pickup From",
