@@ -14,12 +14,12 @@ var config_data = `
       "type": "number",
       "defaultValue": "0"
     },
-    { "name": "Weight",
+    { "name": "Weight (No bumpers no battery)",
       "code": "wei",
       "type": "number",
       "defaultValue": "0"
     },
-    { "name": "Drivetrain",
+    { "name": "Drivetrain Type",
       "code": "drv",
       "type": "radio",
       "choices": {
@@ -36,19 +36,6 @@ var config_data = `
       "type": "text",
       "size": 20,
       "maxSize": 50
-    },
-    { "name": "Swerve Ratio",
-      "code": "sr",
-      "type": "radio",
-      "choices": {
-        "1": "L1 (8.14:1)<br>",
-        "2": "L2 (6.75:1)<br>",
-        "3": "L3 (6.12:1)<br>",
-        "4": "L4 (5.14:1)<br>",
-        "o": "Other ratio (put in comments)<br>",
-        "x": "Not Swerve"
-      },
-      "defaultValue":"x"
     },
     { "name": "Drivetrain Motor",
       "code": "mot",
@@ -73,16 +60,52 @@ var config_data = `
           "size": 20,
           "maxSize": 100
         },
-    { "name": "Autos",
+    { "name": "Auton: 1 note shot <br> (Preloaded note) ",
+          "code": "on",
+          "type": "checkbox",
+          "tooltip": "Shooting the preloaded note"
+          },
+    { "name": "Auton: 2 notes shot <br> (Preloaded note + 1)",
+         "code": "twn",
+         "type": "checkbox",
+         "tooltip": "Shooting the preloaded note and one more"
+    },
+    { "name": "Auton: 3 notes shot <br> (Preloaded note + 2) ",
+            "code": "tn",
+            "type": "checkbox",
+            "tooltip": "Shooting the preloaded note and two more notes"
+    },
+    { "name": "Auton: 4 notes shot <br> (Preloaded note + 3)",
+          "code": "n",
+          "type": "checkbox",
+          "tooltip": "Shooting the preloaded note and three more notes"
+    },
+    { "name": "Auton: 1 amp <br> (Preloaded note) ",
+              "code": "oa",
+              "type": "checkbox"
+    },
+    { "name": "Auton: 2 amp <br> (Preloaded note + 1)",
+             "code": "twa",
+             "type": "checkbox"
+    },
+    { "name": "Auton: 3 amp <br> (Preloaded note + 2)",
+                "code": "ta",
+                "type": "checkbox"
+    },
+    { "name": "Auton: 4 amp <br> (Preloaded note + 3)",
+              "code": "fa",
+              "type": "checkbox"
+    },
+    { "name": "Auton: Other",
       "code": "aut",
       "type": "text",
       "size": 20,
-      "maxSize": 250
+      "maxSize": 50
     },
     { "name": "Comments",
       "code": "co",
       "type": "text",
-      "size": 20,
+      "size": 100,
       "maxSize": 250
     }
   ],

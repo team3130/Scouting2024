@@ -100,6 +100,26 @@ var config_data = `
           "code": "ssc",
           "type": "counter"
     },
+    { "name": "Successfully shot right next to the speaker",
+      "code": "sw",
+      "type": "checkbox",
+      "tooltip": "Successfully shot right next to the speaker"
+    },
+    { "name": "Successfully shot between the subwoofer and stage",
+              "code": "sb",
+              "type": "checkbox",
+              "tooltip": "Successfully shot between the subwoofer and stage"
+    },
+    { "name": "Successfully shot from the Podium <br>(protected side of the stage)",
+            "code": "fp",
+            "type": "checkbox",
+            "tooltip": "Successfully shot from the protected side of the stage"
+    },
+    { "name": "Successfully hot From BEHIND The Podium",
+          "code": "bp",
+          "type": "checkbox",
+          "tooltip": "Successfully shot from BEHIND the podium"
+    },
     { "name": "Shots Missed",
            "code": "smc",
            "type": "counter"
@@ -121,9 +141,10 @@ var config_data = `
     }
   ],
   "endgame": [
-    { "name": "Stage Timer",
+    { "name": "Stage Timer <br> Start timer when the robot enters the stage boundaries",
       "code": "dt",
-      "type": "timer"
+      "type": "timer",
+      "tooltip": "Start timer when the robot enters the stage boundaries"
     },
     { "name": "Final Status",
       "code": "fs",
@@ -131,7 +152,6 @@ var config_data = `
       "choices": {
         "p": "Parked<br>",
         "o": "Onstage<br>",
-        "s": "Onstage (Spotlit)<br>",
         "h": "Harmony<br>",
         "a": "Attempted but failed<br>",
         "x": "Not attempted"
@@ -148,21 +168,19 @@ var config_data = `
       "code": "ds",
       "type": "radio",
       "choices": {
-        "n": "Not Effective<br>",
-        "a": "Average<br>",
-        "v": "Very Effective<br>",
-        "x": "Not Observed"
+        "n": "Not Effective (slamming, getting in the way, chaos)<br>",
+        "a": "Average (not notable)<br>",
+        "v": "Very Effective (smooth, efficient)<br>"
       },
-      "defaultValue": "x"
+      "defaultValue": "a"
     },
     { "name": "Defense Rating",
       "code": "dr",
       "type": "radio",
       "choices": {
-        "b": "Below Average<br>",
-        "a": "Average<br>",
-        "g": "Good<br>",
-        "e": "Excellent<br>",
+        "b": "Below Average (chasing, too slow, penalties)<br>",
+        "a": "Average (pinning every once and awhile)<br>",
+        "e": "Above Average (excellent pinning, shutting down teams)<br>",
         "x": "Did not play defense"
       },
       "defaultValue": "x"
@@ -172,9 +190,7 @@ var config_data = `
       "type": "radio",
       "choices": {
         "1": "1 (slow)<br>",
-        "2": "2<br>",
         "3": "3<br>",
-        "4": "4<br>",
         "5": "5 (fast)"
       },
       "defaultValue":"3"
@@ -191,16 +207,17 @@ var config_data = `
       "code": "dn",
       "type": "bool"
     },
-    { "name": "Make good<br>alliance partner?",
+    { "name": "Make good <br> alliance partner?",
       "tooltip": "Would you want this robot on your alliance in eliminations?",
       "code": "all",
       "type": "bool"
     },
-    { "name": "Comments",
+    { "name": "Observations <br> (penalties, strengths, weaknesses, other noteworthy things)",
+      "tooltip": "penalties, strengths, weaknesses, other noteworthy things",
       "code": "co",
       "type": "text",
       "size": 15,
-      "maxSize": 55
+      "maxSize": 200
     }
   ]
 }`;
