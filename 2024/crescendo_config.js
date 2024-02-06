@@ -115,7 +115,7 @@ var config_data = `
             "type": "checkbox",
             "tooltip": "Successfully shot from the protected side of the stage"
     },
-    { "name": "Successfully hot From BEHIND The Podium",
+    { "name": "Successfully shot From BEHIND The Podium",
           "code": "bp",
           "type": "checkbox",
           "tooltip": "Successfully shot from BEHIND the podium"
