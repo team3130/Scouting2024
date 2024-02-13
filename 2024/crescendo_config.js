@@ -153,6 +153,7 @@ var config_data = `
         "p": "Parked<br>",
         "o": "Onstage<br>",
         "h": "Harmony<br>",
+        "f": "Fell but eventually made it Onstage<br>",
         "a": "Attempted but failed<br>",
         "x": "Not attempted"
       },
@@ -189,9 +190,9 @@ var config_data = `
       "code": "sr",
       "type": "radio",
       "choices": {
-        "1": "1 (slow)<br>",
-        "3": "3<br>",
-        "5": "5 (fast)"
+        "1": "Slow<br>",
+        "3": "Average<br>",
+        "5": "Fast"
       },
       "defaultValue":"3"
     },
@@ -201,10 +202,6 @@ var config_data = `
     },
     { "name": "Tippy<br>(almost tipped over)",
       "code": "tip",
-      "type": "bool"
-    },
-    { "name": "Dropped Notes (>2)",
-      "code": "dn",
       "type": "bool"
     },
     { "name": "Make good <br> alliance partner?",

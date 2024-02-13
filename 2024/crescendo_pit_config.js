@@ -48,6 +48,12 @@ var config_data = `
       },
       "defaultValue":"x"
     },
+    { "name": "Human Player Skill",
+              "code": "hp",
+              "type": "text",
+              "size": 20,
+              "maxSize": 100
+    },
     { "name": "Strengths",
           "code": "st",
           "type": "text",
