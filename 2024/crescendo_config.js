@@ -153,7 +153,7 @@ var config_data = `
         "p": "Parked<br>",
         "o": "Onstage<br>",
         "h": "Harmony<br>",
-        "f": "Fell but eventually made it Onstage<br>",
+        "l": "Fell but eventually made it Onstage<br>",
         "a": "Attempted but failed<br>",
         "x": "Not attempted"
       },

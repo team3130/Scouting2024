@@ -72,7 +72,7 @@ var config_data = `
                   "tooltip": "Shooting the preloaded note"
                   },
     { "name": "Auton: 1 note shot <br> (Preloaded note) ",
-          "code": "on",
+          "code": "wn",
           "type": "checkbox",
           "tooltip": "Shooting the preloaded note"
           },
