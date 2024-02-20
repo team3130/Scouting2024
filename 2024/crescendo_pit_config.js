@@ -66,7 +66,7 @@ var config_data = `
           "size": 20,
           "maxSize": 100
         },
-    { "name": "Auton: crosses line <br> (0 notes) ",
+    { "name": "Auton (select the highest they can do): crosses line <br> (0 notes) ",
                   "code": "on",
                   "type": "checkbox",
                   "tooltip": "Shooting the preloaded note"
