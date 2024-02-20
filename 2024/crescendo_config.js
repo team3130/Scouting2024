@@ -100,7 +100,7 @@ var config_data = `
           "code": "ssc",
           "type": "counter"
     },
-    { "name": "Successfully shot right next to the speaker",
+    { "name": "Successfully shot right next to the speaker/subwoofer",
       "code": "sw",
       "type": "checkbox",
       "tooltip": "Successfully shot right next to the speaker"
