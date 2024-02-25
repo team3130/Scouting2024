@@ -200,8 +200,8 @@ var config_data = `
       "code": "die",
       "type": "bool"
     },
-    { "name": "Tippy<br>(almost tipped over)",
-      "code": "tip",
+    { "name": "Went under the stage<br> yes=checked",
+      "code": "stage",
       "type": "bool"
     },
     { "name": "Make good <br> alliance partner?",
