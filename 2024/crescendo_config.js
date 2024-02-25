@@ -200,7 +200,7 @@ var config_data = `
       "code": "die",
       "type": "bool"
     },
-    { "name": "Went under the stage<br> yes=checked",
+    { "name": "Went under the stage",
       "code": "stage",
       "type": "bool"
     },
