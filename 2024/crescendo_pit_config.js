@@ -113,6 +113,10 @@ var config_data = `
       "size": 20,
       "maxSize": 50
     },
+    { "name": "Does the robot fit under the stage?",
+                  "code": "sa",
+                  "type": "checkbox"
+    },
     { "name": "Comments",
       "code": "co",
       "type": "text",
